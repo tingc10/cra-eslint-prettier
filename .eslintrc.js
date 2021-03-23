@@ -3,7 +3,7 @@ module.exports = {
     'plugin:jest/recommended',
     'react-app',
     'react-app/jest',
-    "plugin:prettier/recommended"
+    'plugin:prettier/recommended',
   ],
   plugins: ['react', 'jest'],
   env: {
@@ -12,6 +12,6 @@ module.exports = {
     jest: true,
   },
   rules: {
-    'prettier/prettier': "error",
+    'prettier/prettier': 'error',
   },
 };
